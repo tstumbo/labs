@@ -34,3 +34,48 @@ groceryList.forEach(function(item){
 });
 
 console.log("Total: $" + totalPrice);
+
+// Write a JavaScript function to generate an array. 
+// The elements in the array should be integers in a range 
+// between two integers given as arguments.
+
+
+
+function makeArray(max, min, length) {
+	var arr = [];
+
+	for(var i = 0; i < length; i++) {
+		var random = (Math.floor(Math.random()*(max-min + 1) + min);
+	}
+	arr.sort(
+		function (a,b){
+			return a - b;
+		}
+		);
+	return arr;
+}
+
+console.log(makeArray(10,2,5));
+
+
+
+
+
+function makeArray() {
+  var maxNum = prompt('Tell me a number');
+  var minNum = prompt('Tell me a smaller a number');
+  maxNum = Number(maxNum);
+  minNum = Number(minNum);
+​
+  console.log(maxNum);
+  console.log(minNum);
+​
+  var arr = [];
+  while(minNum <= maxNum) {
+    arr.push(minNum);
+    minNum++;
+  }
+  console.log(arr);
+}
+​
+makeArray();
