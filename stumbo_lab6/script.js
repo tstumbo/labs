@@ -58,7 +58,7 @@ guessNumber();
 
 
 
-var randomInteger = ;
+var randomInteger = Math.floor((Math.random()*10)+1);
 
 console.log("Guess a number between 1 and 10."); 
 
