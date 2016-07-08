@@ -29,11 +29,11 @@ var groceryList = [
 var totalPrice = 0;
 
 groceryList.forEach(function(item){
- console.log(item.name + ": $" + item.price);
+ console.log(item.name + ": $" + item.price.toFixed(2));
  totalPrice += item.price;
 });
 
-console.log("Total: $" + totalPrice);
+console.log("Total: $" + totalPrice.toFixed(2));
 
 // Write a JavaScript function to generate an array. 
 // The elements in the array should be integers in a range 
