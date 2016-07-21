@@ -1,0 +1,17 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: green;
+
+div {
+	ul {
+  		font: 100% $font-stack;
+  		color: $primary-color;
+	}
+}
+
+#html {
+  color: lighten(green, 20%);
+}
+
+#css {
+	color: darken(green, 10%);
+}

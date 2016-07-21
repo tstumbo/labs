@@ -1,0 +1,72 @@
+1. var attendees;
+
+2. var users = 12;
+
+3. if(age >= 35 && countryOfOrigin === "USA") {
+	console.log("You are eligible to be President");
+} else if(age >= 30) {
+	console.log("You can still be a Governer");
+};
+
+4. for(var i = 1; i < 1000; i++) {
+	console.log(i);
+};
+
+5. function storeData() {
+	/* "Data storage logic here" */
+};
+
+6. function createEntry (entry) {
+	return entry;
+};
+
+7. function createEntry("James");
+
+8. var instructorNames = ["Jeseekia", "Aisha", "Adam"];
+
+9. var letters = ["A", "B", "C"];
+	letters.concat("D", "E", "F");
+
+10. var numbers = [1, 2, 3];
+	numbers.forEach(function(){
+		console.log(numbers);
+	});
+
+11. var myInfo = {
+	firstName = "Travis",
+	lastName = "Stumbo",
+	hairColor = "brown"
+};
+
+12. var customers = [
+	{
+		name: "Bucharest Grill",
+		accountNumber: "2345"
+	},
+
+	{
+		name: "Jimmy Johns",
+		accountNumber: "4567"
+	},
+
+	{
+		name: "Grand Circus",
+		accountNumber: "6789"
+	}
+];
+
+13. var login = document.getElementById("login-form");
+
+14. function list(name) {
+	console.log(name);
+};
+
+var names = ["Jeseekia", "Aisha", "Adam"];
+names.forEach(list);
+
+15. var summary = document.getElementById("summary");
+	summary.innerText = "Lorem Ipsum";
+
+16. "Circus" would be printed to the log. This is because the print() function is logging the title value from the local scope within the function rather than the value of title in the global scope.
+
+17. "undefined" would be printed to the log. var title; is declaring the title variable within the function, but a value is not given for title. 

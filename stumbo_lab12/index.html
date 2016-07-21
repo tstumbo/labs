@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body ng-app="toDoList">
+		<div class="" ng-controller="listController">
+			<input type="text" ng-model="chore" name="name" value="">
+			<input type="text" ng-model="filterList" name="name" value="">
+			<button ng-click="addChore()" name="button">Add</button>
+			<ul>
+				<li ng-repeat="toDo in toDos | filter:filterList">{{toDo}}
+				<input type="checkbox" ng-model="todo.done"/>
+				<span>{{toDos.name}}</span>
+				</li>
+			</ul>
+			
+		</div>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+		<script src="controller.js"></script>
+	</body>
+</html>

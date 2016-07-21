@@ -1,0 +1,24 @@
+@import "_fontAndColor";
+
+$font-base: 20px;
+
+@mixin sample {
+	font-size: $font-base; 
+}
+
+p {
+	@include sample;
+}
+
+
+body {
+	background-color: orange;
+}
+
+div {
+	img{
+		height: 20em;
+		width: 25em;
+		display: inline-block;
+	}
+}
