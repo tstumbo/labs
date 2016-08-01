@@ -1,0 +1,17 @@
+input {
+  display: block;
+  text-align: center;
+  background-color: white; }
+
+a {
+  text-decoration: none;
+  color: yellow;
+  font-family: Verdana; }
+
+body {
+  color: yellow;
+  background-color: blue;
+  font-size: 2em;
+  font-family: Verdana; }
+
+/*# sourceMappingURL=style.css.map */
